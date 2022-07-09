@@ -1,5 +1,5 @@
 .list {
-  @apply flex 2xl:flex-row xl:flex-row lg:flex-col md:flex-row sm:flex
+  @apply flex 2xl:flex-row xl:flex-row lg:flex-col md:flex-row sm:flex h-[60px]
 }
 
 .link {
@@ -26,4 +26,10 @@
 
 .mail {
   @apply hidden lg:flex
+}
+
+.phone {
+  .name {
+    @apply font-bold hidden sm:block
+  }
 }

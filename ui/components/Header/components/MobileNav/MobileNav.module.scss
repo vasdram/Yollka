@@ -1,0 +1,15 @@
+.mobileNav {
+  @apply bg-gray-700 min-h-screen left-0 right-0 fixed top-[90px];
+}
+
+.wrapper {
+  @apply max-w-[660px] mx-auto flex flex-col sm:flex-row justify-between pt-[40px] px-[20px];
+}
+
+.link {
+  @apply text-white text-[20px] md:text-[25px] font-semibold mb-[15px];
+}
+
+.prod, .app {
+  @apply flex flex-col
+}

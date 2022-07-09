@@ -5,7 +5,7 @@ import { FC } from 'react';
 
 export const Logo: FC = () => (
     <Link href="/">
-        <a>
+        <a className="flex-grow">
             <Image src={logo} width={143} height={50} alt="Yolka - пиломатериалы" />
         </a>
     </Link>
