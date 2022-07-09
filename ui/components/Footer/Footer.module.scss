@@ -1,3 +1,35 @@
 .footer {
-  @apply h-[483px] bg-green-400 text-white
+  @apply bg-green-500 text-white
+}
+
+.list{
+  @apply flex flex-col mt-[25px]
+}
+
+.link {
+  @apply text-white text-[16px] flex items-center mb-[15px] hover:text-green-300 transition-colors
+}
+
+.txt {
+  @apply text-white text-[16px] flex items-center mb-[15px]
+}
+
+.linkMain{
+  @apply text-green-300 text-[16px] flex items-center mb-[15px]
+}
+
+.name{
+  @apply ml-[10px]
+}
+
+.top {
+  @apply border-b border-solid border-gray-500 pt-[50px] pb-[40px]
+}
+
+.rightSide {
+  @apply pt-[15px] min-w-[45%] flex flex-col lg:flex-row justify-between
+}
+
+.bottom {
+  @apply flex text-[16px] flex-col md:flex-row justify-between py-[20px] px-[20px]
 }
