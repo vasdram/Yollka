@@ -1,0 +1,1 @@
+export { MenuProd } from './MenuProd';

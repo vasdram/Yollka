@@ -1,0 +1,29 @@
+.menuProd {
+  @apply relative;
+  &:hover{
+    .list{
+      max-height: 300px;
+      overflow: hidden;
+    }
+    .menuLink{
+      @apply text-green-400
+    }
+  }
+}
+
+.list {
+  @apply absolute bg-gray-700 top-[30px] left-[-20px] rounded-[5px] max-h-0 transition-all
+}
+
+.listInner{
+  @apply p-[20px] flex flex-col
+}
+
+.menuLink {
+  @apply text-[1.6rem] cursor-pointer block text-white mr-[3rem] transition-colors pr-[2rem] bg-no-repeat bg-right;
+  background-image: url(../../../../../../../assets/images/ArrowMenuDown.svg);
+}
+
+.link {
+  @apply text-[1.6rem] mb-[20px] whitespace-nowrap text-white mr-[3rem] transition-colors hover:text-green-400
+}

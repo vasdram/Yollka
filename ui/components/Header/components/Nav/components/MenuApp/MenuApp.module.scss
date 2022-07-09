@@ -1,0 +1,7 @@
+.menuApp{
+  @apply flex justify-between
+}
+
+.link{
+  @apply text-[1.6rem] text-white mr-[3rem] transition-colors hover:text-green-400
+}

@@ -1,0 +1,29 @@
+.list {
+  @apply flex 2xl:flex-row xl:flex-row lg:flex-col md:flex-row sm:flex
+}
+
+.link {
+  @apply flex items-center mr-[20px] md:mr-[25px] lg:mb-[10px] lg:mr-0 xl:mr-[30px] xl:mb-0
+}
+
+.name {
+  @apply text-[16px] ml-[10px]
+}
+
+.whatsapp {
+  @apply  flex lg:hidden;
+  .name{
+    @apply hidden md:block
+  }
+}
+
+.telegram {
+  @apply  flex lg:hidden;
+  .name{
+    @apply hidden md:block
+  }
+}
+
+.mail {
+  @apply hidden lg:flex
+}
